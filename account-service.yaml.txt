@@ -19,3 +19,6 @@ spring:
 checkers:
   tag: info
 
+server:
+  port: 8081 
+
