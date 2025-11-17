@@ -1,11 +1,11 @@
 spring:
   application:
-    name: card-service
+    name: restaurant-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/card_db?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/restaurant_db?useSSL=false&serverTimezone=UTC
     username: domypetito
-    password: 1234
+    password: prova1234
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -20,4 +20,4 @@ checkers:
   tag: info
 
 server:
-  port: 8082
+  port: 8086
